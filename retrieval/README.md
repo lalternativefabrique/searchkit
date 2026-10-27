@@ -7,7 +7,7 @@ No storage, no embedding provider, no SQL: callers bring their own candidates.
 Works against pgvector, any other vector store, or a fixture in a test.
 
 ```go
-import "github.com/lalternative/packages/go/retrieval"
+import "github.com/lalternativefabrique/searchkit/retrieval"
 ```
 
 Forked from Synthiz's `lib/retrieval` (`github.com/digstack/synthiz/lib/retrieval`),

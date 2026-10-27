@@ -7,7 +7,7 @@ No provider is hardcoded: `Provider` is a plain interface, so SearXNG, a
 commercial SERP API, or a fixture in a test all look the same to a caller.
 
 ```go
-import "github.com/lalternative/packages/go/search"
+import "github.com/lalternativefabrique/searchkit/search"
 ```
 
 Forked from Synthiz's `apps/core/search`

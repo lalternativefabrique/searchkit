@@ -1,11 +1,11 @@
-module github.com/lalternative/packages/go/search
+module github.com/lalternativefabrique/searchkit/search
 
 go 1.25.0
 
 require (
 	codeberg.org/readeck/go-readability/v2 v2.1.1
 	github.com/JohannesKaufmann/html-to-markdown/v2 v2.5.2
-	github.com/lalternative/packages/go/fileguard v0.5.0
+	github.com/lalternativefabrique/searchkit/fileguard v0.6.0
 	golang.org/x/net v0.55.0
 )
 
@@ -17,3 +17,5 @@ require (
 	github.com/gogs/chardet v0.0.0-20211120154057-b7413eaefb8f // indirect
 	golang.org/x/text v0.37.0 // indirect
 )
+
+replace github.com/lalternativefabrique/searchkit/fileguard => ../fileguard

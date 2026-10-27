@@ -5,7 +5,7 @@ implementation for every product that keys content, doctrine or translations
 by language.
 
 ```
-go get github.com/lalternative/packages/go/language@go/language/v0.1.0
+go get github.com/lalternativefabrique/searchkit/language@language/v0.2.0
 ```
 
 | Function | Does |

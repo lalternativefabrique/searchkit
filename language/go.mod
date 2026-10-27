@@ -1,4 +1,4 @@
-module github.com/lalternative/packages/go/language
+module github.com/lalternativefabrique/searchkit/language
 
 go 1.25.0
 

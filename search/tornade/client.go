@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lalternative/packages/go/search"
+	"github.com/lalternativefabrique/searchkit/search"
 )
 
 // Client queries a tornade instance.

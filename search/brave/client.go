@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lalternative/packages/go/search"
+	"github.com/lalternativefabrique/searchkit/search"
 )
 
 const defaultBaseURL = "https://api.search.brave.com/res/v1/web/search"

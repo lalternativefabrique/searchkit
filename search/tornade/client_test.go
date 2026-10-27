@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lalternative/packages/go/search"
+	"github.com/lalternativefabrique/searchkit/search"
 )
 
 func TestNewWithoutBaseURLIsNil(t *testing.T) {

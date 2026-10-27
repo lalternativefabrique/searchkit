@@ -17,14 +17,14 @@ import (
 	readability "codeberg.org/readeck/go-readability/v2"
 	"golang.org/x/net/html"
 
-	"github.com/lalternative/packages/go/search"
+	"github.com/lalternativefabrique/searchkit/search"
 )
 
 const (
 	// fetchUserAgent identifies requests as an automated reader rather than a
 	// browser, since some sites otherwise serve different (often lighter,
 	// JS-only) markup.
-	fetchUserAgent = "Mozilla/5.0 (compatible; SearchLib/1.0; +https://github.com/lalternative/packages)"
+	fetchUserAgent = "Mozilla/5.0 (compatible; SearchLib/1.0; +https://github.com/lalternativefabrique/searchkit)"
 
 	// fetchTimeout bounds one page fetch. It is generous because a proxied
 	// request adds the proxy's own hop to whatever the origin takes.

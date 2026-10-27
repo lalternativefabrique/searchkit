@@ -1,3 +1,3 @@
-module github.com/lalternative/packages/go/retrieval
+module github.com/lalternativefabrique/searchkit/retrieval
 
 go 1.25.0

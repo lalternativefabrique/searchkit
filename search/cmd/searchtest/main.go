@@ -15,9 +15,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lalternative/packages/go/search"
-	"github.com/lalternative/packages/go/search/fetch"
-	"github.com/lalternative/packages/go/search/searxng"
+	"github.com/lalternativefabrique/searchkit/search"
+	"github.com/lalternativefabrique/searchkit/search/fetch"
+	"github.com/lalternativefabrique/searchkit/search/searxng"
 )
 
 func main() {

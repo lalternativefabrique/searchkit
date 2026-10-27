@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/lalternative/packages/go/search"
+	"github.com/lalternativefabrique/searchkit/search"
 )
 
 func TestSearchSendsResolvedLanguage(t *testing.T) {

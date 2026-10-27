@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lalternative/packages/go/fileguard"
+	"github.com/lalternativefabrique/searchkit/fileguard"
 )
 
 // UseProxy makes proxyURL, a "scheme://user:pass@host:port" residential

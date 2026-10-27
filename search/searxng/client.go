@@ -12,7 +12,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/lalternative/packages/go/search"
+	"github.com/lalternativefabrique/searchkit/search"
 )
 
 type response struct {

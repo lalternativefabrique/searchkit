@@ -5,7 +5,7 @@ what, whether a URL is safe to fetch, and whether the content is what it claims.
 Composable stages, no fixed chain — a service that only stores files runs the
 first two, one that decodes media runs them all.
 
-Module path: `github.com/lalternative/packages/go/fileguard`. Standard library
+Module path: `github.com/lalternativefabrique/searchkit/fileguard`. Standard library
 only.
 
 ```go
