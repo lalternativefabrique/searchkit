@@ -21,5 +21,5 @@ steps:
     tools: [go]
     run: |
       for mod in search fileguard retrieval language embedding; do
-        (cd "$mod" && go build ./... && go vet ./... && go test -count=1 ./...)
+        (cd "$mod" && go build ./... && go vet ./... && go test -count=1 ./...) || exit 1
       done

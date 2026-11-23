@@ -1,0 +1,19 @@
+ok  	github.com/lalternativefabrique/searchkit/search	0.357s
+?   	github.com/lalternativefabrique/searchkit/search/brave	[no test files]
+?   	github.com/lalternativefabrique/searchkit/search/cmd/searchtest	[no test files]
+--- FAIL: TestFetchStaticReadsAPDFByContentType (0.00s)
+    pdf_test.go:37: FetchStatic: fetch page: pdftotext is not installed
+--- FAIL: TestFetchStaticReadsAPDFByNameWhenTheTypeIsGeneric (0.00s)
+    pdf_test.go:60: FetchStatic: fetch page: pdftotext is not installed
+--- FAIL: TestFetchStaticTruncatesAPDF (0.00s)
+    pdf_test.go:72: FetchStatic: fetch page: pdftotext is not installed
+FAIL
+FAIL	github.com/lalternativefabrique/searchkit/search/fetch	0.049s
+?   	github.com/lalternativefabrique/searchkit/search/rendersvc	[no test files]
+ok  	github.com/lalternativefabrique/searchkit/search/searxng	0.004s
+ok  	github.com/lalternativefabrique/searchkit/search/tornade	0.002s
+FAIL
+ok  	github.com/lalternativefabrique/searchkit/fileguard	0.135s
+ok  	github.com/lalternativefabrique/searchkit/retrieval	0.001s
+ok  	github.com/lalternativefabrique/searchkit/language	0.005s
+ok  	github.com/lalternativefabrique/searchkit/embedding	0.064s

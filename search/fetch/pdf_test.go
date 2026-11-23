@@ -5,12 +5,16 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"os"
+	"os/exec"
 	"strings"
 	"testing"
 )
 
 func servePDF(t *testing.T, contentType, filePath string) *httptest.Server {
 	t.Helper()
+	if _, err := exec.LookPath("pdftotext"); err != nil {
+		t.Skip("pdftotext is not installed")
+	}
 	data, err := os.ReadFile("testdata/paper.pdf")
 	if err != nil {
 		t.Fatal(err)

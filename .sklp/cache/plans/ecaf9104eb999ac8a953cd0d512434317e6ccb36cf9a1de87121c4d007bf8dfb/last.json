@@ -1,0 +1,14 @@
+{
+  "plan_key": "ecaf9104eb999ac8a953cd0d512434317e6ccb36cf9a1de87121c4d007bf8dfb",
+  "created_at": "2026-11-23T14:46:02.885589135Z",
+  "steps": [
+    {
+      "name": "gitleaks",
+      "status": "cached"
+    },
+    {
+      "name": "go",
+      "status": "passed"
+    }
+  ]
+}
