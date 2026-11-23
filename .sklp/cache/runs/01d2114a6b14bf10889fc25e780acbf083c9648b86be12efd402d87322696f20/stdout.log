@@ -1,0 +1,11 @@
+ok  	github.com/lalternativefabrique/searchkit/search	0.326s
+?   	github.com/lalternativefabrique/searchkit/search/brave	[no test files]
+?   	github.com/lalternativefabrique/searchkit/search/cmd/searchtest	[no test files]
+ok  	github.com/lalternativefabrique/searchkit/search/fetch	0.085s
+?   	github.com/lalternativefabrique/searchkit/search/rendersvc	[no test files]
+ok  	github.com/lalternativefabrique/searchkit/search/searxng	0.006s
+ok  	github.com/lalternativefabrique/searchkit/search/tornade	0.006s
+ok  	github.com/lalternativefabrique/searchkit/fileguard	0.137s
+ok  	github.com/lalternativefabrique/searchkit/retrieval	0.002s
+ok  	github.com/lalternativefabrique/searchkit/language	0.005s
+ok  	github.com/lalternativefabrique/searchkit/embedding	0.066s

@@ -7,6 +7,7 @@ Go libraries for finding and admitting content. Each directory is its own module
 | `search` | Web search and page fetching behind one interface (SearXNG, Tornade). `go get github.com/lalternativefabrique/searchkit/search@v0.10.0` |
 | `fileguard` | Admission checks on bytes and URLs a service did not choose: SSRF guard, magic-byte sniffing, size limits. Standard library only. `go get github.com/lalternativefabrique/searchkit/fileguard@v0.6.0` |
 | `retrieval` | Decides which candidates of a similarity search are worth keeping. `go get github.com/lalternativefabrique/searchkit/retrieval@v0.2.0` |
+| `embedding` | OpenAI-compatible embeddings and Cohere-compatible rerank: batching, retries, dimension checks, usage metering. `go get github.com/lalternativefabrique/searchkit/embedding@v0.1.0` |
 | `language` | ISO 639-1 language of a text: `Normalize`, offline `Detect`, `Or`. `go get github.com/lalternativefabrique/searchkit/language@v0.2.0` |
 
 ## License
