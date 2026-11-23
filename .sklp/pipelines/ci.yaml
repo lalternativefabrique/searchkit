@@ -20,6 +20,6 @@ steps:
   - name: go
     tools: [go]
     run: |
-      for mod in search fileguard retrieval language; do
+      for mod in search fileguard retrieval language embedding; do
         (cd "$mod" && go build ./... && go vet ./... && go test -count=1 ./...)
       done
